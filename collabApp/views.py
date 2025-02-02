@@ -10,5 +10,8 @@ def public_login(request):
 def signup(request):
     return render(request,'signup.html')
 
+def user_home(request):
+    return render(request,'user_home.html')
 def admin_home(request):
     return render(request,'admin_home.html')
+
