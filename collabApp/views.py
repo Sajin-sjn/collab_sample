@@ -12,3 +12,6 @@ def signup(request):
 
 def user_home(request):
     return render(request,'user_home.html')
+def admin_home(request):
+    return render(request,'admin_home.html')
+
