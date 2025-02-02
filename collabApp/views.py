@@ -6,3 +6,6 @@ def index(request):
 
 def public_login(request):
     return render(request,'login.html')
+
+def signup(request):
+    return render(request,'signup.html')
